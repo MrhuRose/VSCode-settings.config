@@ -1,0 +1,47 @@
+{
+    "editor.codeLens": false, // turns off ref. count
+    "editor.fontSize": 18,
+    "mssql.resultsFontSize": 16, // no effect??
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    // "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\bash.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "terminal.integrated.fontSize": 13,
+    "extensions.ignoreRecommendations": true,
+    "editor.hover.enabled": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.zoomLevel": 1,
+ 
+    "editor.minimap.enabled": true, // toggles minimap!
+    //"editor.rulers": [ // for projection screen!
+    //    70,
+    //    75
+    //],//rulers settings
+    "breadcrumbs.enabled": false, // turns off breakcrumbs!
+    "liveshare.featureSet": "insiders",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "mssql.connections": [
+        {
+            "connectionString": "Data Source=(localdb)\\mssqllocaldb;Database=ExcuseDB;Trusted_Connection=true",
+            "profileName": "Excuse",
+            "password": ""
+        },
+
+        {
+            "connectionString": "Data Source=(localdb)\\mssqllocaldb;Database=ExcuseDB;Trusted_Connection=true",
+            "profileName": "MovieKnights",
+            "password": ""
+        }    
+    ],
+    "files.associations": {
+        "*.java": "java"
+    },
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.startupEditor": "none", // opens NOTHING on startup thank-goodness
+    "team.showWelcomeMessage": false,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "workbench.iconTheme": "material-icon-theme"
+}
